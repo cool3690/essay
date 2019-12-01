@@ -15,12 +15,13 @@
     </head>
 <?php
 require_once("db.php");
+/*
 $statement = $db->query('select userid,rawgrade,rawgrademax from mdl_grade_grades');
 
 foreach($statement as $row){
     echo $row['userid']." ".$row['rawgrade']." ".$row['rawgrademax']."<br>";
 }
-   
+  */
 ?>
 
     <body>
@@ -36,10 +37,10 @@ foreach($statement as $row){
 					
 	<?php
 
-		$statement = $db->query('SELECT username FROM mdl_user');
+		$statement = $db->query('SELECT username,firstname,lastname FROM mdl_user');
 		foreach($statement as $row){
 			?>
-			 <option value="<?= $row['username']?>"><?=$row['username']?></option>
+			 <option value="<?= $row['username']?>"><?=$row['lastname'].$row['firstname']?></option>
 		   
 		<?php
  
