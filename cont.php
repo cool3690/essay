@@ -1,18 +1,20 @@
-
+<html>
+    <head>
+   <meta charset="utf-8">
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script type="text/javascript" src="jquery/jquery-ui-timepicker-zh-TW.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/dmuy/MDTimePicker/7d5488f/mdtimepicker.min.css">
+    <script src="https://cdn.rawgit.com/dmuy/MDTimePicker/7d5488f/mdtimepicker.min.js"></script>
+    </head>
 <?php
 require_once("db.php");
-   /*
-	$emp_id=$_POST['emp_id'];
-	$pwd=$_POST['pwd'];//
-    $sql = "select* from emp where emp_id='$emp_id' and pwd= '$pwd'";
-	
-	
- $sql = "select userid,rawgrade,rawgrademax from mdl_grade_grades ";
-$q=mysqli_query($db,$sql);
-while($e=mysqli_fetch_assoc($q))
-$output[]=$e;
-print(json_encode($output));*/
-//mysql_close();
 $statement = $db->query('select userid,rawgrade,rawgrademax from mdl_grade_grades');
 
 foreach($statement as $row){
@@ -20,3 +22,37 @@ foreach($statement as $row){
 }
    
 ?>
+
+    <body>
+       
+  
+        
+    <div class="container">
+		<table class="table table-striped table-responsive-xl">
+				
+				<tbody>			      
+				<tr>                                            
+					<td id="emp_item">學生</td>                 
+					<td>                                        
+					 <select name="emp2">	                
+					
+	<?php
+
+		$statement = $db->query('SELECT username FROM mdl_user');
+		foreach($statement as $row){
+			?>
+			 <option value="<?= $row['username']?>"><?=$row['username']?></option>
+		   
+		<?php
+ 
+		}
+   	
+	?>
+	   </select>		
+				    </td>                                       
+				</tr> 
+				</tbody>
+			</table>
+         </div>
+    </body>
+</html>
