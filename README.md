@@ -1,6 +1,6 @@
 # essay
 論文資料參考:  
-1.  
+1.Using open source technologies and open internet resources for building an interactive video based learning environment that supports learning analytics  
 https://link.springer.com/article/10.1186/s40561-016-0032-4?fbclid=IwAR3JjIeQK1N5TZPVqlodDvr02dyl1txzwnicjM66_ZZCUvgYwxqU8hLGRHQ  
 
 2.A learning analytics case study. Proceedings of the LAK 2013 Workshop on Analytics on  Video-based Learning  
