@@ -1,4 +1,7 @@
 # essay
+搜尋:  
+https://scholar.google.com.tw/scholar?q=video-based%20learning%20analytics&hl=zh-TW&as_sdt=0&as_vis=1&oi=scholart&fbclid=IwAR0uh85NisEjyjf0iuTg11hTx93PcnN_VMhqVMmvOv8LFzqwEsS3pj0A_Vc  
+
 論文資料參考:  
 1.Using open source technologies and open internet resources for building an interactive video based learning environment that supports learning analytics  
 https://link.springer.com/article/10.1186/s40561-016-0032-4?fbclid=IwAR3JjIeQK1N5TZPVqlodDvr02dyl1txzwnicjM66_ZZCUvgYwxqU8hLGRHQ  
