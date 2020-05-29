@@ -22,6 +22,11 @@ https://www.douban.com/note/223080701/
   
   Nessus:  
   https://www.tenable.com/downloads/nessus?loginAttempted=true#download
-
+  
+deadlock:
+https://sls.weco.net/node/21327
+https://ithelp.ithome.com.tw/articles/10206844
+https://zh.wikipedia.org/wiki/%E6%AD%BB%E9%94%81
+http://ccckmit.wikidot.com/cs-deadlock
 
 
