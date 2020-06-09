@@ -29,4 +29,5 @@ https://ithelp.ithome.com.tw/articles/10206844
 https://zh.wikipedia.org/wiki/%E6%AD%BB%E9%94%81  
 http://ccckmit.wikidot.com/cs-deadlock  
 https://nixchun.pixnet.net/blog/post/7544041  
+http://www.operatingsystemassignmenthelp.com/deadlock/  
 
