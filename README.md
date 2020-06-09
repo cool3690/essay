@@ -30,4 +30,5 @@ https://zh.wikipedia.org/wiki/%E6%AD%BB%E9%94%81
 http://ccckmit.wikidot.com/cs-deadlock  
 https://nixchun.pixnet.net/blog/post/7544041  
 http://www.operatingsystemassignmenthelp.com/deadlock/  
+https://www.slideshare.net/DhavalChandarana/distributed-dbms-unit-9-distributed-deadlock-recovery  
 
