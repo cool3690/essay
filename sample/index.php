@@ -13,21 +13,17 @@ $response = $lrs->queryStatements(['limit' =>3]);
 $test2 = json_encode($response, JSON_PRETTY_PRINT);
 HEADER('Content-Type: application/json; charset=utf-8');
 $json = json_decode($test2,true);
-//echo $json ;
-/*
- foreach($json as $key=>$value)
-{
-    echo $key . "=>" . $value ;
-}
-*/
+
 
   $json_data = json_decode($test2, true);
-    // print_r($json_data);
-    print_r($json_data["httpResponse"]["_content"]);
+   //  print_r($json_data );
+   $test3=$json_data["httpResponse"]["_content"];
+  // print_r($test3["more"]);
+  
+ $test4= json_decode($test3, true);
+ print_r($json_data   );
 
-
-
-
+print_r($test4 ["statements"][0]["id"] );
 
 
 
