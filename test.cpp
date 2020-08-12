@@ -42,15 +42,50 @@ void myfunc( bool &show,int &tmp, vector <int> &v2){
 
    }
 }
+
+void cal(bool &show, int x, vector <int > &ans){
+while(x){
+        show=false;
+        int tmp=x%10;
+    for(int i=0;i<ans.size();i++){
+        if(ans[i]==tmp){
+            show=true;
+            ans[i]=-1;
+            break;
+        }
+    }
+    x=x/10;
+  if(!show) {break;}
+
+  }
+}
+
+
+bool isVampire(int x, int y) {
+  int sum=x*y;
+  vector <int> ans;
+  while(sum){
+   ans.push_back(sum%10);
+   sum=sum/10;
+  }
+  sort(ans.begin(),ans.end());
+  bool show=false;
+
+cal(show,x,ans);
+cal(show,y,ans);
+if(!show){return false;}
+  return true;
+}
 int main()
 {   vector <int> v1;
     int x=0;
     int j=0;
+    /*
     while(cin>>x){
         int z=sqrt(x);
     int y=x;
 
-    while(y>0){
+    while(y){
         v1.push_back(y%10);
         y=y/10;
 
@@ -86,6 +121,12 @@ int main()
     }
     }
 
-  /*  */
+   */
+
+    int y=0;
+    while(cin>>x>>y){
+         cout<<isVampire(x,y)<<endl;
+    }
+
     return 0;
 }
