@@ -19,18 +19,6 @@ https://www.researchgate.net/publication/272688475_Collecting_and_Making_Sense_o
 
 日文N2:  
 https://www.douban.com/note/223080701/
-  
-  Nessus:  
-  https://www.tenable.com/downloads/nessus?loginAttempted=true#download
-  
-deadlock:
-https://sls.weco.net/node/21327  
-https://ithelp.ithome.com.tw/articles/10206844  
-https://zh.wikipedia.org/wiki/%E6%AD%BB%E9%94%81  
-http://ccckmit.wikidot.com/cs-deadlock  
-https://nixchun.pixnet.net/blog/post/7544041  
-http://www.operatingsystemassignmenthelp.com/deadlock/  
-https://www.slideshare.net/DhavalChandarana/distributed-dbms-unit-9-distributed-deadlock-recovery  
-http://debussy.im.nuu.edu.tw/sjchen/OS/97Spring/Ch_6.pdf  
-https://www.slideshare.net/JenWeiCheng/os20170609  
-https://sls.weco.net/blog/miniann423/13-jun-2007/2071
+
+openstack:  
+https://ubuntu.com/openstack/install  
