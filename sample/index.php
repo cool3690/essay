@@ -10,13 +10,14 @@ $lrs = new TinCan\RemoteLRS(
     '2QZ72aAJQsLmIMd2ILs'
 );
 $actor = new TinCan\Agent(
-    [ 'name' => '名 小' ]
+    [ 'name' => '名 小' ] 
 );
 $verb = new TinCan\Verb(
     [ 'id' => 'http://adlnet.gov/expapi/verbs/completed' ]
 );
 $activity = new TinCan\Activity(
-    [ 'id' => 'http://rusticisoftware.github.com/TinCanPHP' ]
+    [  
+	'id'=> 'http://localhost/moodle/mod/quiz/view.php?id=2']
 );
 $statement = new TinCan\Statement(
     [
@@ -36,7 +37,8 @@ $result =  new TinCan\Result(
  $response = $lrs->queryStatements(
 			[ 'actor'  =>$actor ,
 			  'verb'  => $verb,
-			  'result' => $result
+			  'activity' => $activity,
+			   
 			]
  
 			);
@@ -55,4 +57,11 @@ $json = json_decode($test2,true);
   print_r($test4 );
 
 //print_r($test4 ["statements"][0]["id"] );
+
+
+  
+
+  
+ 
+
 ?>
