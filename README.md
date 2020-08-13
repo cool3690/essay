@@ -22,3 +22,5 @@ https://www.douban.com/note/223080701/
 
 openstack:  
 https://ubuntu.com/openstack/install  
+TINCAN:  
+http://xapi.com/wp-content/assets/e-book/Anatomy-of-a-Tin-Can-Statement-e-Book.pdf
