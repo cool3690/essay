@@ -71,7 +71,9 @@ $json = json_decode($test2,true);
 
 //print_r($test4 ["statements"][0]["id"] );
 
-
+ print_r("姓名: ".$test4 ["statements"][0]["actor"]["name"]);
+  print_r(" , 科目: ".$test4 ["statements"][0]["context"]["contextActivities"]["grouping"][1]["definition"]["name"]["en"]);
+ print_r(" , 成績: ".$test4 ["statements"][0]["result"]["score"]["raw"]);
   
 
   
