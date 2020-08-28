@@ -9,6 +9,13 @@ $lrs = new TinCan\RemoteLRS(
     '6FHzChshWrTfDVs-z7s',
     '2QZ72aAJQsLmIMd2ILs'
 );
+/*   
+$activity->getName('名 小');
+ //   $activity->getMbox('mailto:info@tincanapi.com');
+  //  ->getName() ;
+  */
+// print_r( $activity);
+
 $actor = new TinCan\Agent(
     [ 'name' => '名 小' ] 
 );
