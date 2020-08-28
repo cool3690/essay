@@ -26,5 +26,6 @@ TINCAN:
 http://xapi.com/wp-content/assets/e-book/Anatomy-of-a-Tin-Can-Statement-e-Book.pdf  
 https://stackoverflow.com/questions/26528322/how-to-execute-a-query-on-tin-can-statements  
 
-android espresso:  
-https://link.springer.com/content/pdf/bfm%3A978-1-4842-4315-2%2F1.pdf
+android espresso :  
+https://link.springer.com/content/pdf/bfm%3A978-1-4842-4315-2%2F1.pdf  
+https://github.com/android/testing-samples  
