@@ -29,3 +29,6 @@ https://stackoverflow.com/questions/26528322/how-to-execute-a-query-on-tin-can-s
 android espresso :  
 https://link.springer.com/content/pdf/bfm%3A978-1-4842-4315-2%2F1.pdf  
 https://github.com/android/testing-samples  
+  
+
+http://www.jucs.org/jucs_21_1/development_of_the_learning/jucs_21_01_0110_0133_park.pdf
