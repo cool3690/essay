@@ -16,12 +16,15 @@ https://www.researchgate.net/publication/234138989_Usage_reporting_on_recorded_l
 https://www.researchgate.net/publication/272688475_Collecting_and_Making_Sense_of_Video_Learning_Analytics  
 
 
+moodle成績分析:  
+銘傳:moodle 資料分析
+http://oset.mcu.edu.tw/sites/default/files/2014/paper/OSET_14007.pdf  
+Moodle 數位學習情況量表
+http://jcset.mcu.edu.tw/papers/Vol1_No1/01005.pdf  
 
-日文N2:  
-https://www.douban.com/note/223080701/
 
-openstack:  
-https://ubuntu.com/openstack/install  
+
+
 TINCAN:  
 http://xapi.com/wp-content/assets/e-book/Anatomy-of-a-Tin-Can-Statement-e-Book.pdf  
 https://stackoverflow.com/questions/26528322/how-to-execute-a-query-on-tin-can-statements  
