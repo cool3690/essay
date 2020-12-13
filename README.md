@@ -16,7 +16,9 @@ https://www.researchgate.net/publication/234138989_Usage_reporting_on_recorded_l
 https://www.researchgate.net/publication/272688475_Collecting_and_Making_Sense_of_Video_Learning_Analytics  
 
 
-moodle成績分析:  
+moodle成績分析: 
+https://www.google.com/search?q=moodle%E6%88%90%E7%B8%BE%E5%88%86%E6%9E%90&oq=moodle%E6%88%90%E7%B8%BE%E5%88%86%E6%9E%90&aqs=chrome..69i57j0i333.9372j0j7&sourceid=chrome&ie=UTF-8  
+
 銘傳:moodle 資料分析
 http://oset.mcu.edu.tw/sites/default/files/2014/paper/OSET_14007.pdf  
 Moodle 數位學習情況量表
