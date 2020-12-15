@@ -30,7 +30,8 @@ http://rportal.lib.ntnu.edu.tw/bitstream/20.500.12235/93009/1/n069608022801.pdf
 MOODLE互評
 http://joemls.dils.tku.edu.tw/fulltext/43/43-3/267-284.pdf  
 
-
+學術搜尋:
+https://scholar.google.com.tw/scholar?lr=&q=e-learning+score+analysis&hl=zh-TW&as_sdt=0,5&as_vis=1
 
 
 TINCAN:  
