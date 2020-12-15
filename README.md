@@ -23,6 +23,12 @@ https://www.google.com/search?q=moodle%E6%88%90%E7%B8%BE%E5%88%86%E6%9E%90&oq=mo
 http://oset.mcu.edu.tw/sites/default/files/2014/paper/OSET_14007.pdf  
 Moodle 數位學習情況量表
 http://jcset.mcu.edu.tw/papers/Vol1_No1/01005.pdf  
+英文學習成效:  
+http://rportal.lib.ntnu.edu.tw/bitstream/20.500.12235/92970/4/n069508001304.pdf  
+Moodle與閱讀
+http://rportal.lib.ntnu.edu.tw/bitstream/20.500.12235/93009/1/n069608022801.pdf  
+MOODLE互評
+http://joemls.dils.tku.edu.tw/fulltext/43/43-3/267-284.pdf  
 
 
 
