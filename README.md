@@ -32,6 +32,8 @@ http://joemls.dils.tku.edu.tw/fulltext/43/43-3/267-284.pdf
 
 學術搜尋:
 https://scholar.google.com.tw/scholar?lr=&q=e-learning+score+analysis&hl=zh-TW&as_sdt=0,5&as_vis=1
+教育實踐與創新:  
+https://tppi.ntue.edu.tw/FileUploads/PDF/6808c54d-6edb-400d-aef2-c1e6d2bcc2eb.pdf  
 
 
 TINCAN:  
