@@ -40,7 +40,7 @@
 						while ($row = mysqli_fetch_array($sql)) {
 							$fullname=$row['fullname'];	
 							 $sortorder=$row['sortorder'];			
-							echo "<option value='$fullname'>".$fullname." </option>";
+							echo "<option value='$sortorder'>".$fullname." </option>";
 						}
 				 
 			?>
@@ -56,6 +56,19 @@
         </select>
         <button type="submit" name="submit" class="btn-primary " > 確認 </button>
     </form>
+
+    <?php
+     
+        if(isset($_POST['submit'])){
+            $subject=$_POST['subject'];
+            $quiz=$_POST['quiz'];
+            echo $subject." ".$quiz;
+
+        }
+
+ 
+	 
+    ?>
 </div>
  
 <script type="text/javascript">
