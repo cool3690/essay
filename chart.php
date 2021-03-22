@@ -70,6 +70,7 @@ if(isset($_POST['emp2'])){
 		}
 	// echo $sub."的成績"; 
 $grade= "['time','rawgrade'],";
+$grade_barchart= "['time','rawgrade', { role: 'style' }],";
 $sql="select A.userid, A.rawgrade, A.rawgrademax, A.timecreated,A.itemid,B.id,B.itemname,B.courseid,B.courseid,C.id,C.fullname
  from mdl_grade_grades A, mdl_grade_items B,mdl_course C 
  where userid='$sub' and A.timecreated!='NULL' and B.id=A.itemid and C.id=B.courseid";
@@ -85,8 +86,10 @@ foreach($statement as $row){
 	$h=$row['fullname']."_".$row['itemname'];
 	
 	$grade.="['$i',$g],";
+	$grade_barchart.="['$h', $g ,'gold'],";
 }
 $grade=rtrim($grade,",");
+$grade_barchart=rtrim($grade_barchart,",");
 }
 
 /**/
@@ -94,14 +97,16 @@ $grade=rtrim($grade,",");
   
 ?>
                                      
-				</tr> 
-				</tbody>
-			</table>
+	</tr> 
+	</tbody>
+	</table>
+ <?php echo  $grade_barchart ;?>
+  <!---->
 	<script type="text/javascript">
       google.load("visualization", "1", {packages:["corechart"]});
       google.setOnLoadCallback(drawChart);
       function drawChart() {
-        var data = google.visualization.arrayToDataTable(<?php echo "[$grade]"?>);     
+        var data = google.visualization.arrayToDataTable(<?php  echo "[$grade]"?>);     
         var options = {title: '成績', backgroundColor:'white'};
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
         chart.draw(data, options);
@@ -110,6 +115,34 @@ $grade=rtrim($grade,",");
 	  
     </script>
 			<div id="chart_div" style="width: 900px; height: 200px;"></div>
+
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable(<?php  echo "[$grade_barchart]"?>); 
+        var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "成績",
+        width: 600,
+        height: 400,
+        bar: {groupWidth: "95%"},
+        legend: { position: "none" },
+      };
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div2'));
+        chart.draw(data, options);
+      }
+	  google.setOnLoadCallback(drawChart1);
+	  
+    </script>
+			<div id="chart_div2" style="width: 900px; height: 200px;"></div>
 			 
          </div>
     </body>
