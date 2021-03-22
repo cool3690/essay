@@ -100,7 +100,7 @@ $grade_barchart=rtrim($grade_barchart,",");
 	</tr> 
 	</tbody>
 	</table>
- <?php echo  $grade_barchart ;?>
+  
   <!---->
 	<script type="text/javascript">
       google.load("visualization", "1", {packages:["corechart"]});
@@ -133,7 +133,7 @@ $grade_barchart=rtrim($grade_barchart,",");
         title: "成績",
         width: 600,
         height: 400,
-        bar: {groupWidth: "95%"},
+        bar: {groupWidth: "20%"},
         legend: { position: "none" },
       };
         var chart = new google.visualization.BarChart(document.getElementById('chart_div2'));
