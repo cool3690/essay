@@ -20,13 +20,16 @@ require_once("db.php");
 ?>
 <?php
   $sub=3;
-  $sql="select A.userid, A.rawgrade, A.rawgrademax, A.timecreated,A.itemid,B.id,B.itemname,B.courseid,B.courseid,C.id,C.fullname
-        from mdl_grade_grades A, mdl_grade_items B,mdl_course C
-        where userid='3' and A.timecreated!='NULL' and B.id=A.itemid and C.id=B.courseid ";
+  $sql="select id,userid,action, FROM_UNIXTIME(`timecreated`, '%Y %m %d')
+   from `mdl_logstore_standard_log` 
+   where FROM_UNIXTIME(`timecreated`, '%Y %m %d')<'2021 03 22'";
+  //$sql="select A.userid, A.rawgrade, A.rawgrademax, A.timecreated,A.itemid,B.id,B.itemname,B.courseid,B.courseid,C.id,C.fullname
+      //  from mdl_grade_grades A, mdl_grade_items B,mdl_course C
+      //  where userid='3' and A.timecreated!='NULL' and B.id=A.itemid and C.id=B.courseid ";
 		$statement = $db->query($sql);
 		foreach($statement as $row){
 			 
-			 echo $row['userid'].'<br>'.$row['rawgrade'].'<br>' ;
+			 echo $row['action'].'<br>'.'<br>' ;
 		   
 	 
 		}
